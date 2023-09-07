@@ -19,3 +19,29 @@ buttons.forEach(button => {
   })
 })
 
+
+const logos = document.querySelectorAll('.partner-logo');
+let currentLogo = 0;
+
+function showLogo(index) {
+  logos.forEach((logo, i) => {
+    if (i === index) {
+      logo.style.display = 'block';
+    } else {
+      logo.style.display = 'none';
+    }
+  });
+}
+
+function nextLogo() {
+  currentLogo = (currentLogo + 1) % logos.length;
+  showLogo(currentLogo);
+}
+
+function prevLogo() {
+  currentLogo = (currentLogo - 1 + logos.length) % logos.length;
+  showLogo(currentLogo);
+}
+
+document.querySelector('.arrow-left').addEventListener('click', prevLogo);
+document.querySelector('.arrow-right').addEventListener('click', nextLogo);
