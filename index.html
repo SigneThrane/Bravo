@@ -6,6 +6,7 @@
     <title>Bravo</title>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <script src="script.js" defer></script>
  
 </head>
@@ -18,24 +19,26 @@
             <li><a href="#">Home</a></li>
              <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Portfolio</a>
+                        </li>
                             <li><a href="#">Blogs</a></li>
                                 <li><a href="#">Features</a></li>
                                     <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="white" class="bi bi-search" viewBox="0 0 16 16">
-                                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 
-                                     0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                         </svg>
+                    
+<form class="example" action="action_page.php">
+    <input type="text" placeholder="Search.." name="search">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
 
 </header>
 
 
     <section>
         <div class="carousel" data-carousel>   
-            <button class="carousel-button prev" data-carousel-button="prev">&#10232;</button>
-            <button class="carousel-button next" data-carousel-button="next">&#10233;</button>
+            <button class="carousel-button prev" data-carousel-button="prev"><</button>
+            <button class="carousel-button next" data-carousel-button="next">></button>
         <ul data-slides>
             <li class="slide" data-active>
                 <img src="https://images.adsttc.com/media/images/619d/4b60/f91c/818c/6e00/0006/large_jpg/shutterstock_728342668.jpg?1637698337" alt="#1">
@@ -109,6 +112,34 @@
         
             </div> 
 
+            
+            <div class="slider">
+                <div class="item">
+                    <img src="https://www.openaccessgovernment.org/wp-content/uploads/2019/03/dreamstime_s_115214614.jpg" width="500" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://cdn-res.keymedia.com/cms/images/us/037/0223_637242926815337822.jpg" width="500"  alt="">
+                </div>
+                <div class="item">
+                    <img src="https://rnz-ressh.cloudinary.com/image/upload/s--8gBlapIX--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1644239728/4MWL7G5_copyright_image_225007" width="500"  alt="">
+                </div>
+                <div class="item">
+                    <img src="https://assets.entrepreneur.com/content/3x2/2000/20151120172744-procrastination-young-man-home-office-laptop-distracted-work-distant.jpeg" width="500"  alt="">
+                </div>
+                <div class="item">
+                    <img src="https://shrm-res.cloudinary.com/image/upload/c_crop,h_705,w_1254,x_0,y_35/w_auto:100,w_1200,q_35,f_auto/v1/News/deciding_who_WFH_pfotmd.jpg" width="500"  alt="">
+                </div>
+                <div class="item">
+                    <img src="https://images.contentstack.io/v3/assets/blte891c850d5781579/bltf69ab2726db93e87/64da83e0e1abb7c7c44e3add/Second-shift.jpg" width="500"  alt="">
+                </div>
+                <div class="item">
+                    <img src="https://fjwp.s3.amazonaws.com/blog/wp-content/uploads/2018/07/01153710/benefits-of-working-from-home-1024x512.jpgg" width="500"  alt="">
+                </div>
+                <button id="next">></button>
+                <button id="prev"><</button>
+            </div>
+            
+
             <div class="container__us">
                  <div class="us">
                     <h4>Why choose us?</h4>
@@ -120,12 +151,12 @@
                     <li id="usp">lorem ipsum</li>
                  </div>
                         <div class="graph">
-                            <p>Lorem Ipsum is simply of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy</p>
-                            <img src="https://i0.wp.com/www.fusioncharts.com/blog/wp-content/uploads/2022/07/d.png?resize=620%2C201&ssl=1" alt="">
+                            <p>Lorem Ipsum is simply of the printing and typesetting industry. Lorem Ipsum has industry's standard dummy. </p>
+                            <img src="img/Group 1.png" width="700" alt="diagram">
                         </div>
                                 <div class="testimonials">
                                     <h4>What Client's say?</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy</p>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting. <br> Lorem Ipsum has been the </p>
                                     <b>John Doe</b>
                                 </div>
             </div>
@@ -135,12 +166,12 @@
            </div>
             <div class="partner-container">
                 <div class="arrow arrow-left">&lt;</div>
-                        <img class="partner-logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="Partner 1 Logo">
-                                <img class="partner-logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="Partner 2 Logo">
-                                        <img class="partner-logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="Partner 3 Logo">
-                                                <img class="partner-logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="Partner 4 Logo">
-                                                        <img class="partner-logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="Partner 5 Logo">
-                                                                <img class="partner-logo" src="https://www.kadencewp.com/wp-content/uploads/2020/10/alogo-2.png" alt="Partner 6 Logo">
+                        <img class="partner-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" alt="Partner 1 Logo">
+                                <img class="partner-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" alt="Partner 2 Logo">
+                                        <img class="partner-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" alt="Partner 3 Logo">
+                                                <img class="partner-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" alt="Partner 4 Logo">
+                                                        <img class="partner-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" alt="Partner 5 Logo">
+                                                                <img class="partner-logo" src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" alt="Partner 6 Logo">
                                                                          <div class="arrow arrow-right">&gt;</div>
               </div>
         
